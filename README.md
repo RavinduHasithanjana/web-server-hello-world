@@ -27,7 +27,7 @@ Happy coding :rocket:
 
 ## golang
 
-### Compile and run it 
+### Compile and run it
 
 Source file : [webserverhelloworld.go](golang/webserverhelloworld.go)
 
@@ -51,3 +51,26 @@ $ ./webserverhelloworld
 localhost:8080
 ```
 
+## Python
+
+### Compile and run it
+
+Source file : [webserverhelloworld.py](Python/webserverhelloworld.py)
+
+#### Windows
+
+```powershell
+python -m SimpleHTTPServer 8000
+```
+
+#### Linux
+
+```bash
+$ python -m SimpleHTTPServer 8000
+```
+
+#### Check output from your browser
+
+```
+localhost:8080
+```
